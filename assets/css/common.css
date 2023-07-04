@@ -25,6 +25,12 @@
 .items-center {
   align-items: center;
 }
+.text-center {
+  text-align: center;
+}
+.p-1px {
+  padding: 1px;
+}
 .p-4px {
   padding: 4px;
 }
@@ -122,6 +128,9 @@
 .m-8px {
   margin: 8px;
 }
+.m-10px {
+  margin: 10px;
+}
 .m-12px {
   margin: 12px;
 }
@@ -140,6 +149,9 @@
 }
 .mt-8px {
   margin-top: 8px;
+}
+.mt-10px {
+  margin: 10px;
 }
 .mt-12px {
   margin-top: 12px;

@@ -1,38 +1,25 @@
 body {
   background: #f5f6f8;
 }
+body,
+html {
+  height: 100%;
+}
 
 .container {
   width: 1200px;
+  height: 100%;
   margin: 0 auto;
 }
 
-.header {
-  background-color: #fff;
-  max-width: 100%;
-  height: 56px;
-  padding: 12px;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-}
-.img-cover {
+header {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  background: #fff;
 }
-.img-contain {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
 .header .search {
   width: 312px;
   height: 32px;
-  background-color: rgba(222, 222, 222, 0.32);
-  display: flex;
-  align-items: center;
+  background-color: #dedede;
   padding: 7px;
   border-radius: 4px;
   margin-left: 18px;
@@ -48,12 +35,8 @@ body {
 .header .search input {
   background-color: transparent;
   border: none;
-  width: 100%;
 }
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  gap: 32px;
   margin-right: 139px;
 }
 
@@ -62,9 +45,15 @@ body {
   font-size: 14px;
   font-weight: 500;
 }
-.profile {
+.navbar-link {
   display: flex;
+  text-align: center;
 }
+.navbar-icon {
+  display: flex;
+  object-fit: cover;
+}
+
 .profile .avatar {
   width: 24px;
   height: 24px;
@@ -77,6 +66,12 @@ body {
   font-size: 10px;
   text-align: right;
 }
+.page-left {
+  flex-shrink: 0;
+  position: fixed;
+  height: 100%;
+}
+
 .profile-view {
   margin-top: 16px;
   width: 270px;
@@ -106,4 +101,35 @@ body {
   color: #aaa;
   font-size: 14px;
   text-align: center;
+}
+.description {
+  border-bottom: 1px solid #edf0f5;
+}
+.card-newest {
+  width: 270px;
+  height: 301px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #fff;
+}
+.card-head .title {
+  color: #17272f;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  border-bottom: 1px solid #edf0f5;
+}
+
+.hashtag-icon i {
+  object-fit: contain;
+  height: 12px;
+  width: 12px;
+}
+.hashtag-link {
+  color: #069;
+  font-size: 12px;
+}
+.hashtag-text {
+  display: flex;
+  justify-content: space-between;
 }

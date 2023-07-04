@@ -8,8 +8,8 @@
   background-size: contain;
 }
 
-.icon-bell {
-  background-image: url(../icons/bell.svg);
+.icon-notification {
+  background-image: url(../icons/notification.svg);
 }
 .icon-briefcase {
   background-image: url(../icons/briefcase.svg);
@@ -76,4 +76,7 @@
 }
 .icon-video {
   background-image: url(../icons/video.svg);
+}
+.icon-userblue {
+  background-image: url(../icons/users\ blue.svg);
 }

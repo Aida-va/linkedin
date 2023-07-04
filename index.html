@@ -7,69 +7,177 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+    <header>
+      <div class="container">
+        <div class="header flex pt-16px pb-16px justify-between">
+          <div class="flex justify-between">
+            <div class="header-logo">
+              <a href="#">
+                <img src="./assets/img/linkedin.svg" alt="Logo" />
+              </a>
+            </div>
+            <div class="search flex items-center">
+              <span>
+                <i class="icon icon-search"></i>
+              </span>
+              <input type="text" placeholder="Search...." />
+            </div>
+
+            <nav class="navbar flex items-center">
+              <a href="#" class="navbar-link">
+                <span class="navbar-icon">
+                  <i class="icon icon-home"></i>
+                </span>
+                <span class="navbar-text flex items-center">Home</span>
+              </a>
+              <a href="#" class="navbar-link">
+                <span class="navbar-icon">
+                  <i class="icon icon-users"></i>
+                  <span class="navbar-text"></span>
+                </span>
+              </a>
+              <a href="#" class="navbar-link">
+                <span class="navbar-icon">
+                  <i class="icon icon-briefcase"></i>
+                  <span class="navbar-text"></span>
+                </span>
+              </a>
+              <a href="#" class="navbar-link">
+                <span class="navbar-icon">
+                  <i class="icon icon-message"></i>
+                  <span class="navbar-text"></span>
+                </span>
+              </a>
+              <a href="#" class="navbar-link">
+                <span class="navbar-icon">
+                  <i class="icon icon-notification"></i>
+                  <span class="navbar-text"></span>
+                </span>
+              </a>
+              <a href="#" class="navbar-link">
+                <span class="navbar-icon">
+                  <i class="icon icon-grid"></i>
+                  <span class="navbar-text"></span>
+                </span>
+              </a>
+            </nav>
+          </div>
+          <div class="profile flex items-center">
+            <div>
+              <p class="name">Cameron Williamson</p>
+              <p class="status">Online</p>
+            </div>
+            <div class="avatar">
+              <img
+                src="./assets/img/Avatar Cameron.png"
+                alt="avatar"
+                class="img-contain"
+              />
+            </div>
+            <a href="#">
+              <i class="icon icon-chevronup"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
     <div class="container">
-      <header class="header">
-        <div>
-          <a href="#" class="logo">
-            <img src="./assets/img/linkedin.svg" alt="logo" />
-          </a>
-        </div>
-        <div class="search">
-          <span>
-            <i class="icon icon-search"></i>
-          </span>
-          <input type="text" placeholder="Search...." />
-        </div>
-        <nav class="navbar">
-          <a href="#" class="navbar-link flex items-center">
-            <span class="navbar-icon">
-              <i class="icon icon-home"></i>
-            </span>
-            <span class="navbar-text">Home</span>
-          </a>
-          <a href="#" class="navbar-link">
-            <span class="navbar-icon">
-              <i class="icon icon-users"></i>
-            </span>
-          </a>
-          <a href="#" class="navbar-link">
-            <span class="navbar-icon">
-              <i class="icon icon-briefcase"></i>
-            </span>
-          </a>
-          <a href="#" class="navbar-link">
-            <span class="navbar-icon">
-              <i class="icon icon-message"></i>
-            </span>
-          </a>
-          <a href="#" class="navbar-link">
-            <span class="navbar-icon">
-              <i class="icon icon-bell"></i>
-            </span>
-          </a>
-          <a href="#" class="navbar-link">
-            <span class="navbar-icon">
-              <i class="icon icon-grid"></i>
-            </span>
-          </a>
-        </nav>
-        <div class="profile">
-          <div>
-            <p class="name">Cameron Williamson</p>
-            <p class="status">Online</p>
+      <adide class="page-left">
+        <div class="card">
+          <div class="profile-view">
+            <img src="./assets/img/Screen Shot blue.png" alt="background img" />
+            <figure class="avatar">
+              <img
+                src="./assets/img/Avatar Cameron.png"
+                alt="Cameron avatar"
+                class="img-cover"
+              />
+            </figure>
+            <div class="description">
+              <div class="mt-16px">
+                <p class="name">Cameron Williamson</p>
+                <p class="position">Business Analyst</p>
+              </div>
+            </div>
+
+            <div class="view ml-16px">
+              <span class="inline-flex justify-between">
+                <p>Who viewed your profile</p>
+
+                90
+              </span>
+              <span class="inline-flex justify-between">
+                <p>Views of your post</p>
+                627
+              </span>
+            </div>
           </div>
-          <div class="avatar">
-            <img
-              src="./assets/img/Avatar Cameron.png"
-              alt="avatar"
-              class="img-contain"
-            />
-          </div>
-          <a href="#">
-            <i class="icon icon-chevronup"></i>
-          </a>
         </div>
-      </header>
+        <div class="card-newest mt-16px p-16px">
+          <div class="card-head">
+            <div>
+              <h4 class="title">NEWEST</h4>
+            </div>
+          </div>
+          <nav class="navbar flex flex-column">
+            <a href="#" class="hashtag-link flex items-center">
+              <span class="hashtag-icon mr-4px">
+                <i class="icon icon-hashtag"></i>
+              </span>
+              <span class="hashtag-text"> money </span>
+            </a>
+            <a href="#" class="hashtag-link flex items-center">
+              <span class="hashtag-icon mr-4px">
+                <i class="icon icon-hashtag"></i>
+              </span>
+              <span class="hashtag-text"> economy</span>
+            </a>
+            <a href="#" class="hashtag-link flex items-center">
+              <span class="hashtag-icon mr-4px">
+                <i class="icon icon-hashtag"></i>
+              </span>
+              <span class="hashtag-text"> markets</span>
+            </a>
+            <a href="#" class="hashtag-link flex items-center">
+              <span class="hashtag-icon mr-4px">
+                <i class="icon icon-hashtag"></i>
+              </span>
+              <span class="hashtag-text"> futurismy</span>
+            </a>
+            <div class="card-body">
+              <div>
+                <h4 class="title">GROUP</h4>
+              </div>
+              <nav class="navbar flex flex-column">
+                <a href="#" class="hashtag-link flex items-center">
+                  <span class="hashtag-icon mr-4px">
+                    <i class="icon icon-userblue"></i>
+                  </span>
+                  <span class="hashtag-text "> Android Developers Group </span>
+                </a>
+                <a href="#" class="hashtag-link flex items-center">
+                  <span class="hashtag-icon mr-4px">
+                    <i class="icon icon-userblue"></i>
+                  </span>
+                  <span class="hashtag-text"> User Interface </span>
+                </a>
+                <a href="#" class="hashtag-link flex items-center">
+                  <span class="hashtag-icon mr-4px">
+                    <i class="icon icon-userblue"></i>
+                  </span>
+                  <span class="hashtag-text"> User Experience</span>
+                </a>
+                <a href="#" class="hashtag-link flex items-center">
+                  <span class="hashtag-icon mr-4px">
+                    <i class="icon icon-userblue"></i>
+                  </span>
+                  <span class="hashtag-text"> Design Thinking</span>
+                </a>
+            </div>
+          </nav>
+        </div>
+      </adide>
     </div>
   </body>
 </html>
