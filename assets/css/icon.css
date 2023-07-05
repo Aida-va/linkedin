@@ -17,9 +17,7 @@
 .icon-calendar {
   background-image: url(../icons/calendar.svg);
 }
-.icon-camera {
-  background-image: url(../icons/camera.svg);
-}
+
 .icon-chevronup {
   background-image: url(../icons/chevronup.svg);
 }
@@ -27,7 +25,7 @@
   background-image: url(../icons/chevronupdown.svg);
 }
 .icon-edit {
-  background-image: url(../icons/edit.svg);
+  background-image: url(../icons/edit1.svg);
 }
 .icon-ellipse {
   background-image: url(../icons/ellipse.svg);
@@ -60,16 +58,16 @@
   background-image: url(../icons/search.svg);
 }
 .icon-send {
-  background-image: url(../icons/send.svg);
+  background-image: url(../icons/send\ .svg);
 }
 .icon-share {
   background-image: url(../icons/share.svg);
 }
-.icon-thumbsupColor {
+.icon-like {
   background-image: url(../icons/thumbs-upcolor.svg);
 }
 .icon-thumbsup {
-  background-image: url(../icons/thumbs-up.svg);
+  background-image: url(../icons/thumbs-up\ .svg);
 }
 .icon-users {
   background-image: url(../icons/users.svg);
@@ -79,4 +77,13 @@
 }
 .icon-userblue {
   background-image: url(../icons/users\ blue.svg);
+}
+.icon-plus {
+  background-image: url(../icons/plusblue.svg);
+}
+.icon-camera {
+  background-image: url(../icons/camera\ .svg);
+}
+.icon-cameragrey {
+  background-image: url(../icons/camera-grey.svg);
 }

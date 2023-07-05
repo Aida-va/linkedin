@@ -156,6 +156,9 @@
 .mt-12px {
   margin-top: 12px;
 }
+.mt-14px {
+  margin-top: 14px;
+}
 .mt-16px {
   margin-top: 16px;
 }
@@ -256,4 +259,8 @@
 }
 .text-lg {
   font-size: 18px;
+}
+
+.br-6px {
+  border-radius: 6px;
 }

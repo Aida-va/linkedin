@@ -36,9 +36,6 @@ header {
   background-color: transparent;
   border: none;
 }
-.navbar {
-  margin-right: 139px;
-}
 
 .navbar-text {
   color: var(--primary);
@@ -67,27 +64,38 @@ header {
   text-align: right;
 }
 .page-left {
+  width: 275px;
   flex-shrink: 0;
   position: fixed;
   height: 100%;
 }
 
+.page-content {
+  margin-left: 300px;
+}
+
+.page-right {
+  position: sticky;
+
+  padding: 900px;
+  height: 100%;
+}
+
 .profile-view {
-  margin-top: 16px;
   width: 270px;
   height: 225px;
   border-radius: 6px;
   background: #fff;
   border-bottom: 1px solid var(--bordercolor);
+  padding: 8px;
 }
 .profile-view img {
-  margin: 8px;
   position: relative;
 }
 .profile-view .avatar {
   position: absolute;
   margin-left: 97px;
-  margin-top: -45px;
+  margin-top: -30px;
   border-radius: 56px;
 }
 .profile-view .name {
@@ -113,11 +121,13 @@ header {
   background: #fff;
 }
 .card-head .title {
+  border-bottom: 1px solid #edf0f5;
+}
+.card-head .title-text {
   color: #17272f;
   font-size: 14px;
   font-family: Roboto;
   font-weight: 500;
-  border-bottom: 1px solid #edf0f5;
 }
 
 .hashtag-icon i {
@@ -129,7 +139,110 @@ header {
   color: #069;
   font-size: 12px;
 }
-.hashtag-text {
-  display: flex;
-  justify-content: space-between;
+.card-body .active-text {
+  color: #31b057;
+  font-size: 14px;
+  font-family: Roboto;
+}
+.card-event {
+  width: 270px;
+  height: 51px;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.card-more {
+  border-radius: 6px;
+  background: #fff;
+  text-align: center;
+}
+.card-more a {
+  color: #069;
+  font-size: 14px;
+  font-family: Roboto;
+}
+.create-post {
+  width: 540px;
+  height: 124px;
+  border-radius: 6px;
+  background: #fff;
+}
+.create-post .create-text {
+  color: #aaa;
+  font-size: 14px;
+  font-family: Roboto;
+  margin-top: 15px;
+  border-bottom: 1px solid #edf0f5;
+}
+.create-post .text {
+  color: #17272f;
+  font-size: 14px;
+  font-family: Roboto;
+}
+.filter {
+  width: 540px;
+  height: 42px;
+  border-radius: 6px;
+  background-color: #dedede;
+  padding: 13px;
+}
+.linkedin-item {
+  width: 540px;
+  border-radius: 6px;
+  background: #fff;
+}
+.linkedin-item .avatar {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.linkedin-item .inner {
+  border-bottom: 1px solid #edf0f5;
+}
+.linkedin-title .name {
+  color: #17272f;
+  font-size: 14px;
+  font-weight: 500;
+}
+.linkedin-title .position,
+.time {
+  color: #aaa;
+}
+.linkedin-item .text {
+  color: #17272f;
+  font-size: 14px;
+}
+.linkedin-item .hashtag {
+  color: #069;
+  font-size: 14px;
+}
+.linkedin-item .comment-view {
+  border-bottom: 1px solid #edf0f5;
+}
+.linkedin-buttons .text {
+  color: #aaa;
+  font-size: 16px;
+}
+.linkedin-buttons .linkedin-button {
+  gap: 17px;
+}
+.write-comment .avatar {
+  width: 32px;
+  height: 32px;
+}
+.write-comment .comment {
+  width: 459px;
+  border-radius: 6px;
+  border: 1px solid #edf0f5;
+}
+.write-comment input {
+  border: none;
+  color: #dedede;
+  font-size: 14px;
+}
+.page-right .feeds {
+  width: 270px;
+  padding: 16px;
+  border-radius: 6px;
+  background: #fff;
 }
