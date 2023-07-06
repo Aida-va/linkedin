@@ -87,3 +87,18 @@
 .icon-cameragrey {
   background-image: url(../icons/camera-grey.svg);
 }
+.icon-plusblue {
+  background-image: url(../icons/plusblue.svg);
+}
+.icon-dot {
+  background-image: url(../icons/dot.svg);
+}
+.icon-editwhite {
+  background-image: url(../icons/edit-white.svg);
+}
+.icon-ellipsewhite {
+  background-image: url(../icons/more-horizontalwhite.svg);
+}
+.icon-upwhite {
+  background-image: url(../icons/chevron-upwhite.svg);
+}

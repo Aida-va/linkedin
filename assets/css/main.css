@@ -66,19 +66,21 @@ header {
 .page-left {
   width: 275px;
   flex-shrink: 0;
-  position: fixed;
+  position: absolute;
   height: 100%;
 }
 
 .page-content {
   margin-left: 300px;
+  flex-grow: 1;
 }
 
 .page-right {
+  width: 360px;
   position: sticky;
-
-  padding: 900px;
+  padding-left: 900px;
   height: 100%;
+  margin-top: -970px;
 }
 
 .profile-view {
@@ -149,6 +151,7 @@ header {
   height: 51px;
   border-radius: 6px;
   background: #fff;
+  font-weight: 500;
 }
 
 .card-more {
@@ -159,7 +162,7 @@ header {
 .card-more a {
   color: #069;
   font-size: 14px;
-  font-family: Roboto;
+  font-weight: 500;
 }
 .create-post {
   width: 540px;
@@ -245,4 +248,101 @@ header {
   padding: 16px;
   border-radius: 6px;
   background: #fff;
+}
+.feeds .box {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid #069;
+}
+.dot {
+  width: 4px;
+  height: 4px;
+}
+.feeds .inner .avatar {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.recomendation {
+  margin-top: 36px;
+}
+
+.recomendation a {
+  margin-top: 36px;
+  margin-left: 56px;
+  color: #069;
+  font-size: 14px;
+  font-weight: 500;
+}
+.advertisement {
+  width: 270px;
+  border-radius: 6px;
+  background: #fff;
+}
+.advertisement h4 {
+  color: #17272f;
+  font-size: 14px;
+  font-weight: 500;
+}
+.advertisement p {
+  color: #aaa;
+  font-size: 10px;
+  font-weight: 400;
+}
+.ads-head {
+  border-bottom: 1px solid #edf0f5;
+}
+.advertisement figure {
+  width: 84px;
+  height: 84px;
+}
+.advertisement figure .avatar {
+  width: 72px;
+  height: 72px;
+}
+.advertisement .update {
+  color: #17272f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.advertisement .recomendation {
+  margin-top: 36px;
+}
+
+footer {
+  width: 270px;
+  margin-top: 54px;
+}
+.footer {
+  border-bottom: 1px solid #edf0f5;
+}
+.footer a {
+  color: #aaa;
+  font-size: 10px;
+  font-weight: 400;
+  margin-right: 21px;
+  padding-bottom: 16px;
+}
+.footer a:hover {
+  color: rgba(29, 155, 240, 1);
+}
+footer h6 p {
+  color: #aaa;
+  font-size: 10px;
+  font-weight: 400;
+}
+footer .logo {
+  width: 44px;
+  height: 12px;
+}
+
+.messaging {
+  background-color: u;
+}
+
+.messaging .avatar {
+  width: 32px;
+  height: 32px;
 }
