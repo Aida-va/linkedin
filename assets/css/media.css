@@ -2,18 +2,44 @@
 @media screen and (max-width: 1536px) {
 }
 
-/* X laptop */
+/* Laptop */
 @media screen and (max-width: 1280px) {
 }
 
 /* Laptop */
 @media screen and (max-width: 1024px) {
+  .page-right {
+    display: none;
+  }
 }
 
 /* Tablet */
 @media screen and (max-width: 768px) {
+  .page-left {
+    display: none;
+  }
+
+  .page-content {
+    margin-left: 100px;
+  }
 }
 
 /* Mobile */
 @media screen and (max-width: 640px) {
+  .container,
+  header {
+    display: none;
+  }
+  .page-content {
+    width: 100%;
+  }
+  .mobile-navbar {
+    margin-top: 0;
+    width: 100%;
+    position: fixed;
+    height: 52px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+  }
 }

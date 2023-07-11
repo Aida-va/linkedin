@@ -16,6 +16,11 @@ header {
   width: 100%;
   background: #fff;
 }
+section {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
 .header .search {
   width: 312px;
   height: 32px;
@@ -46,6 +51,17 @@ header {
   display: flex;
   text-align: center;
 }
+.navbar-link .notificate {
+  width: 7px;
+  height: 7px;
+  display: flex;
+  border-radius: 999px;
+  background-color: #fc8338;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 2px;
+  border: 1px solid white;
+}
 .navbar-icon {
   display: flex;
   object-fit: cover;
@@ -64,6 +80,7 @@ header {
   text-align: right;
 }
 .page-left {
+  align-items: center;
   width: 275px;
   flex-shrink: 0;
   position: absolute;
@@ -72,15 +89,17 @@ header {
 
 .page-content {
   margin-left: 300px;
+  width: 540px;
+  flex-grow: 1;
   flex-shrink: 0;
 }
 
 .page-right {
+  align-items: center;
+  margin-left: 30px;
   width: 360px;
   position: sticky;
-  padding-left: 900px;
   height: 100%;
-  margin-top: -970px;
 }
 
 .profile-view {
@@ -99,6 +118,7 @@ header {
   margin-left: 97px;
   margin-top: -30px;
   border-radius: 56px;
+  border: 2px solid white;
 }
 .profile-view .name {
   color: #17272f;
@@ -111,6 +131,15 @@ header {
   color: #aaa;
   font-size: 14px;
   text-align: center;
+}
+.profile-view .view p {
+  color: #17272f;
+  font-size: 14px;
+  font-family: Roboto;
+}
+.profile-view .view :nth-child(2) {
+  color: #069;
+  font-size: 14px;
 }
 .description {
   border-bottom: 1px solid #edf0f5;
@@ -146,6 +175,10 @@ header {
   font-size: 14px;
   font-family: Roboto;
 }
+.card-body .active a i {
+  width: 12px;
+  height: 12px;
+}
 .card-event {
   width: 270px;
   height: 51px;
@@ -155,6 +188,8 @@ header {
 }
 
 .card-more {
+  width: 270px;
+  height: 56px;
   border-radius: 6px;
   background: #fff;
   text-align: center;
@@ -210,6 +245,10 @@ header {
 .linkedin-title .position,
 .time {
   color: #aaa;
+  font-size: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
 }
 .linkedin-item .text {
   color: #17272f;
@@ -218,20 +257,44 @@ header {
 .linkedin-item .hashtag {
   color: #069;
   font-size: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .linkedin-item .comment-view {
   border-bottom: 1px solid #edf0f5;
 }
+.linkedin-item .comment-view i {
+  width: 16px;
+  height: 16px;
+}
+.linkedin-item .comment-view p {
+  color: #17272f;
+  font-size: 10px;
+}
+
+.linkedin-item h4 p {
+  color: #17272f;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+}
 .linkedin-buttons .text {
   color: #aaa;
   font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
 }
-.linkedin-buttons .linkedin-button {
-  gap: 17px;
+
+.linkedin-buttons .linkedin-button i {
+  width: 20px;
+  height: 20px;
 }
 .write-comment .avatar {
   width: 32px;
   height: 32px;
+  margin-right: 12px;
 }
 .write-comment .comment {
   width: 459px;
@@ -242,7 +305,12 @@ header {
   border: none;
   color: #dedede;
   font-size: 14px;
+  outline: none;
 }
+.write-comment input:focus {
+  color: #17272f;
+}
+
 .page-right .feeds {
   width: 270px;
   padding: 16px;
@@ -354,4 +422,7 @@ footer .logo {
 .messaging span {
   color: #fff;
   font-size: 14px;
+}
+.mobile-navbar {
+  display: none;
 }
